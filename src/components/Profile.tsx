@@ -23,7 +23,7 @@ function Profile() {
       });
   }, [params.id]);
 
-  //navigate back to home page
+  //navigates back to home page
   const handleBackClick = () => {
     navigate(-1);
   };
