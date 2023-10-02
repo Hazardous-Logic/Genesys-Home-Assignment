@@ -2,7 +2,7 @@
 
 Single Page Application which creates a table using Rick & Morty API’s Character endpoint.
 
-Created using Vite + React (TypeScript) with Tailwind CSS (You will require the lastest versions to run this)
+Created using Vite + React (TypeScript) with Tailwind CSS (You will require the lastest versions to run this).
 
 The data in the table is Generated based on the received response.
 
