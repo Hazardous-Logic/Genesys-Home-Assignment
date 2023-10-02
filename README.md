@@ -1,27 +1,16 @@
-# React + TypeScript + Vite
+# Genesys-Home-Assignment (Rick-and-Morty)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Single Page Application which creates a table using Rick & Morty API’s Character endpoint.
 
-Currently, two official plugins are available:
+Created using Vite + React (TypeScript) with Tailwind CSS (You will require the lastest versions to run this).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The data in the table is Generated based on the received response.
 
-## Expanding the ESLint configuration
+When the user clicks on one of the names it navigates to the Profile page that shows more information
+about the character.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The character profile page has a Back button that will navigate back to the main table.
 
-- Configure the top-level `parserOptions` property like this:
+The Application utilizes pagination in the main table.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+There is also input field on the Home page to search among character names.
